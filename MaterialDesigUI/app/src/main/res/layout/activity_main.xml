@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mdui_bt_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="样式_兼容控件使用" />
+            <Button
+                android:id="@+id/mdui_bt_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView简单使用" />
+            <Button
+                android:id="@+id/mdui_bt_rv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView简单封装" />
+            <Button
+                android:id="@+id/mdui_bt_rv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView间隔线细节处理" />
+            <Button
+                android:id="@+id/mdui_bt_rv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="添加头部和底部封装" />
+            <Button
+                android:id="@+id/mdui_bt_rv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView交互动画" />
+            <Button
+                android:id="@+id/mdui_bt_ch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MaterialDesign侧滑" />
+            <Button
+                android:id="@+id/mdui_bt_nv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NavigationView标准侧滑" />
+
+            <Button
+                android:id="@+id/mdui_bt_SnackBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NavigationView标准侧滑SnackBar" />
+            <Button
+                android:id="@+id/mdui_bt_TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextInputLayout" />
+
+            <Button
+                android:id="@+id/mdui_bt_Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toolbar" />
+
+            <Button
+                android:id="@+id/mdui_bt_SearchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SearchView" />
+
+            <Button
+                android:id="@+id/mdui_bt_palette"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Palette状态栏颜色提取" />
+            <Button
+                android:id="@+id/mdui_bt_scrolltoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="scrolltoolbar" />
+
+            <Button
+                android:id="@+id/mdui_bt_TabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TabLayout" />
+
+
+            <Button
+                android:id="@+id/mdui_bt_bottomNavigationBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bottomNavigationBar"
+                />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:orientation="horizontal">
+               <Button
+                   android:id="@+id/mdui_bt_design"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="沉浸式设计"
+                   android:layout_weight="1"/>
+
+               <Button
+                   android:id="@+id/mdui_bt_design1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="沉浸式设计1"
+                   android:layout_weight="1"/>
+
+               <Button
+                   android:id="@+id/mdui_bt_design2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="沉浸式设计2"
+                   android:layout_weight="1"/>
+
+           </LinearLayout>
+            <Button
+                android:id="@+id/mdui_bt_design3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="沉浸式设计封装" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/mdui_bt_MDCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MDCardView"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/mdui_bt_MDFab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MDFab"
+                android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/mdui_bt_fab_animation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fab_animation"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/mdui_bt_animation_Behavior"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="animation_Behavior"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
